@@ -6,11 +6,18 @@ const $ = require('cheerio');
 async function additionalInfoViaItemUrl(itemUrl) {
   return rp(itemUrl)
     .then(function(html) {
-      // document.querySelectorAll('td > span[itemprop=price]')[1].getAttribute('content');
-      var configurationsLength = $('td > span[itemprop=price]', html).length;
+      var configurationsLength = $('tbody',html).eq(0).find('tr', html).length;
       console.log(configurationsLength)
+      var configurations = [];
+      for (var i = 0; i < configurationsLength; i++) {
+        configurations.push({
+          price: $('td > span[itemprop=price]', html).attr('content'),
+          dimensions: $('td', html).eq(3).text().trim(),
+          thickness: $('td', html).eq(4).text().trim()
+        })
+      }
       // itemInfo[0] is name
-      var itemInfo = [$('h1', html).text(), { price: $('td > span[itemprop=price]', html).attr('content'), dimensions: $('td', html).eq(3).text().trim(), thickness: $('td', html).eq(4).text().trim()}];
+      var itemInfo = [$('h1', html).text(), configurations];
       return itemInfo;
   })
 };
@@ -28,7 +35,7 @@ function extractItems() {
     items.push({
       itemUrl: itemUrl,
       materialType: "Acrylic",
-      customCuts: false;
+      customCuts: false,
       imageSrc: imageSrc
     });
   }

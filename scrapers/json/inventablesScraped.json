@@ -2,352 +2,802 @@
  {
   "itemUrl": "https://www.inventables.com/technologies/neon-green-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/23306/big_grid/neon%20green%20-%20full%20sheet.jpg?1360963282",
   "thickness": "1/4",
   "name": "Neon Green Acrylic Sheet",
-  "configurations": {
-   "price": "58.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "58.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "58.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/neon-orange-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24202/big_grid/Orange.jpg?1377113884",
   "thickness": "1/4",
   "name": "Neon Orange Acrylic Sheet",
-  "configurations": {
-   "price": "21.49",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "21.49",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "21.49",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/neon-blue-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24203/big_grid/Blue.jpg?1377113959",
   "thickness": "1/4",
   "name": "Neon Blue Acrylic Sheet",
-  "configurations": {
-   "price": "21.49",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "21.49",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "21.49",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/gold-sunset-glitter-acrylic",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/25061/big_grid/transparentgoldsparkleacrylic-1.JPG?1407948039",
   "thickness": "1/4",
   "name": "Gold Sunset Glitter Acrylic",
-  "configurations": {
-   "price": "46.99",
-   "dimensions": "1/8 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/blue-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22900/big_grid/24131%20-%20blue.jpg?1335381667",
-  "thickness": "1/4",
-  "name": "Blue Acrylic Sheet",
-  "configurations": {
-   "price": "11.49",
-   "dimensions": "12 in × 24 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/transparent-grey-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22603/big_grid/24136.jpg?1335203818",
-  "thickness": "1/4",
-  "name": "Transparent Grey Acrylic Sheet",
-  "configurations": {
-   "price": "10.49",
-   "dimensions": "12 in × 24 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/translucent-red-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22910/big_grid/24153%20-%20red%20translucent.jpg?1335386063",
-  "thickness": "1/4",
-  "name": "Translucent Red Acrylic Sheet",
-  "configurations": {
-   "price": "10.49",
-   "dimensions": "12 in × 24 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/grey-acrylic-sheet--2",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22906/big_grid/24156%20-%20grey.jpg?1335382170",
-  "thickness": "1/4",
-  "name": "Grey Acrylic Sheet",
-  "configurations": {
-   "price": "10.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "46.99",
+    "dimensions": "1/8 in",
+    "thickness": "Color"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-red-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22783/big_grid/24163.jpg?1335203875",
   "thickness": "1/4",
   "name": "Transparent Red Acrylic Sheet",
-  "configurations": {
-   "price": "10.49",
-   "dimensions": "12 in × 24 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/transparent-light-bronze-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22555/big_grid/24166.jpg?1335203801",
-  "thickness": "1/4",
-  "name": "Transparent Light Bronze Acrylic Sheet",
-  "configurations": {
-   "price": "10.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/first-surface-mirror-coated-acrylic",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/11342/big_grid/300x400.jpg?1335201639",
   "thickness": "1/4",
   "name": "First Surface Mirror Coated Acrylic",
-  "configurations": {
-   "price": "46.49",
-   "dimensions": "1/8 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/pink-passion-fruit-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22105/big_grid/25090_-_pink_passion_fuit.jpg?1335203665",
-  "thickness": "1/4",
-  "name": "Pink Passion Fruit Acrylic Sheet",
-  "configurations": {
-   "price": "11.49",
-   "dimensions": "8 in × 12 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/orange-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/23446/big_grid/orange%20acrylic%20sheet.jpg?1363097164",
-  "thickness": "1/4",
-  "name": "Orange Acrylic Sheet",
-  "configurations": {
-   "price": "9.0",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "46.49",
+    "dimensions": "1/8 in",
+    "thickness": "Mirrored (2 sides)"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/black-and-gold-glitter-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24187/big_grid/9556494797_be54d9f639_o.jpg?1377051502",
   "thickness": "1/4",
   "name": "Black and Gold Glitter Acrylic Sheet",
-  "configurations": {
-   "price": "19.99",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/black-and-silver-glitter-acrylic-sheet--2",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24188/big_grid/9559282312_ea6039563a_o.jpg?1377051668",
   "thickness": "1/4",
   "name": "Black and Silver Glitter Acrylic Sheet",
-  "configurations": {
-   "price": "19.99",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/rainbow-glitter-acrylic-sheet--2",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24195/big_grid/Rainbow%202.jpg?1377113189",
   "thickness": "1/4",
   "name": "Rainbow Glitter Acrylic Sheet",
-  "configurations": {
-   "price": "19.99",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/silver-and-gold-glitter-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24185/big_grid/9556492445_bb47d0ef49_o.jpg?1377051074",
   "thickness": "1/4",
   "name": "Silver and Gold Glitter Acrylic Sheet",
-  "configurations": {
-   "price": "19.99",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/blue-glitter-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24193/big_grid/9559279528_29cb22bf8b_o.jpg?1377052633",
   "thickness": "1/4",
   "name": "Blue Glitter Acrylic Sheet",
-  "configurations": {
-   "price": "19.99",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/purple-glitter-acrylic-sheet--2",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24198/big_grid/Purple.jpg?1377113516",
   "thickness": "1/4",
   "name": "Purple Glitter Acrylic Sheet",
-  "configurations": {
-   "price": "19.99",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "19.99",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/grey-and-clear-reverse-laserable-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24969/big_grid/30425-01greyclearsheet.JPG?1402677640",
   "thickness": "1/4",
   "name": "Grey and Clear Reverse Laserable Acrylic Sheet",
-  "configurations": {
-   "price": "24.99",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "24.99",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/16 in"
+   },
+   {
+    "price": "24.99",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/16 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/gold-and-clear-reverse-laserable-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24976/big_grid/copperclearsheet.JPG?1402678206",
   "thickness": "1/4",
   "name": "Gold and Clear Reverse Laserable Acrylic Sheet",
-  "configurations": {
-   "price": "12.49",
-   "dimensions": "1/8 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/red-and-clear-reverse-laserable-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24971/big_grid/30428-01redclearsheet.JPG?1402677799",
-  "thickness": "1/4",
-  "name": "Red and Clear Reverse Laserable Acrylic Sheet",
-  "configurations": {
-   "price": "8.99",
-   "dimensions": "8 in × 12 in"
-  }
+  "configurations": [
+   {
+    "price": "12.49",
+    "dimensions": "1/8 in",
+    "thickness": "± .005 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/glow-in-the-dark-and-clear-reverse-laserable-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24974/big_grid/30436-01glowinthedarkclearsheet.JPG?1402678044",
   "thickness": "1/4",
   "name": "Glow in the Dark and Clear Reverse Laserable Acrylic Sheet",
-  "configurations": {
-   "price": "17.49",
-   "dimensions": "1/16 in"
-  }
+  "configurations": [
+   {
+    "price": "17.49",
+    "dimensions": "1/16 in",
+    "thickness": "± .003 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/matte-white-on-silver-engravable-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/25399/big_grid/White%20on%20Silver%20Acrylic.JPG?1473277441",
   "thickness": "1/4",
   "name": "Matte White on Silver Engravable Acrylic Sheet",
-  "configurations": {
-   "dimensions": "± 1/4 in"
-  }
+  "configurations": [
+   {
+    "dimensions": "± 1/4 in",
+    "thickness": "Top Layer Thickness"
+   },
+   {
+    "dimensions": "± 1/4 in",
+    "thickness": "Top Layer Thickness"
+   },
+   {
+    "dimensions": "± 1/4 in",
+    "thickness": "Top Layer Thickness"
+   },
+   {
+    "dimensions": "± 1/4 in",
+    "thickness": "Top Layer Thickness"
+   }
+  ]
  },
  {
-  "itemUrl": "https://www.inventables.com/technologies/black-acrylic-sheet",
+  "itemUrl": "https://www.inventables.com/technologies/yellow-acrylic-sheet",
   "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22898/big_grid/24112%20-%20black.jpg?1335381492",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22897/big_grid/24113%20-%20yellow.jpg?1335381351",
   "thickness": "1/4",
-  "name": "Black Acrylic Sheet",
-  "configurations": {
-   "price": "11.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "name": "Yellow Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/31-light-transmission-white-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22915/big_grid/24129%20-%2031%25%20light%20transmission%20white.jpg?1335390655",
   "thickness": "1/4",
   "name": "31% Light Transmission White Acrylic Sheet",
-  "configurations": {
-   "price": "11.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/40-light-transmission-white-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22917/big_grid/24130%20-%2040%25%20light%20transmission%20white.jpg?1335390820",
   "thickness": "1/4",
   "name": "40% Light Transmission White Acrylic Sheet",
-  "configurations": {
-   "price": "11.49",
-   "dimensions": "12 in × 24 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/red-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22902/big_grid/24132%20-%20red.jpg?1335381845",
-  "thickness": "1/4",
-  "name": "Red Acrylic Sheet",
-  "configurations": {
-   "price": "11.49",
-   "dimensions": "12 in × 24 in"
-  }
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/green-acrylic-sheet",
-  "materialType": "Acrylic",
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22904/big_grid/24133%20-%20green.jpg?1335382020",
-  "thickness": "1/4",
-  "name": "Green Acrylic Sheet",
-  "configurations": {
-   "price": "11.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "11.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-light-blue-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22621/big_grid/24134.jpg?1335203824",
   "thickness": "1/4",
   "name": "Transparent Light Blue Acrylic Sheet",
-  "configurations": {
-   "price": "10.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-dark-bronze-acrylic-sheet--2",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22579/big_grid/24137.jpg?1335203807",
   "thickness": "1/4",
   "name": "Transparent Dark Bronze Acrylic Sheet",
-  "configurations": {
-   "price": "10.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/fluorescent-pink-acrylic-sheet",
   "materialType": "Acrylic",
+  "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22657/big_grid/24138_-_2.jpg?1335203836",
   "thickness": "1/4",
   "name": "Fluorescent Pink Acrylic Sheet",
-  "configurations": {
-   "price": "13.49",
-   "dimensions": "12 in × 24 in"
-  }
+  "configurations": [
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/fluorescent-orange-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22669/big_grid/24139.jpg?1335203840",
+  "thickness": "1/4",
+  "name": "Fluorescent Orange Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/fluorescent-yellow-acrylic-sheet--3",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22693/big_grid/24140.jpg?1335203846",
+  "thickness": "1/4",
+  "name": "Fluorescent Yellow Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/fluorescent-green-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22687/big_grid/24141.jpg?1335203843",
+  "thickness": "1/4",
+  "name": "Fluorescent Green Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "13.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/translucent-blue-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22513/big_grid/24152.jpg?1335203789",
+  "thickness": "1/4",
+  "name": "Translucent Blue Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/translucent-red-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22910/big_grid/24153%20-%20red%20translucent.jpg?1335386063",
+  "thickness": "1/4",
+  "name": "Translucent Red Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/translucent-ivory-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22913/big_grid/24154.jpg?1335387614",
+  "thickness": "1/4",
+  "name": "Translucent Ivory Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/translucent-purple-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22501/big_grid/24155.jpg?1335203783",
+  "thickness": "1/4",
+  "name": "Translucent Purple Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/grey-acrylic-sheet--2",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22906/big_grid/24156%20-%20grey.jpg?1335382170",
+  "thickness": "1/4",
+  "name": "Grey Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/brown-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22908/big_grid/24157%20-%20brown.jpg?1335383305",
+  "thickness": "1/4",
+  "name": "Brown Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/transparent-green-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22441/big_grid/24159.jpg?1335203752",
+  "thickness": "1/4",
+  "name": "Transparent Green Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   }
+  ]
  }
 ]
