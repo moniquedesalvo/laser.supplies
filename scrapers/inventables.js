@@ -11,9 +11,10 @@ async function additionalInfoViaItemUrl(itemUrl) {
       var configurations = [];
       for (var i = 0; i < configurationsLength; i++) {
         configurations.push({
-          price: $('td > span[itemprop=price]', html).attr('content'),
-          dimensions: $('td', html).eq(3).text().trim(),
-          thickness: $('td', html).eq(4).text().trim()
+          price: $('td > span[itemprop=price]', html).eq(i).attr('content'),
+          // $('tbody').eq(0).find('tr').eq(1).find('td').eq(3).text().trim();
+          dimensions: $('tbody', html).eq(0).find('tr', html).eq(i).find('td', html).eq(3).text().trim(),
+          thickness: $('tbody', html).eq(0).find('tr', html).eq(i).find('td', html).eq(4).text().trim()
         })
       }
       // itemInfo[0] is name
