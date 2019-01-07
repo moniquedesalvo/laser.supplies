@@ -1,54 +1,75 @@
 const fs = require('fs');
 const rp = require('request-promise');
 const puppeteer = require('puppeteer');
-const url = 'https://www.inventables.com/categories/materials/acrylic';
+const $ = require('cheerio');
 
-// puppeteer
-//   .launch()
-//   .then(function(browser) {
-//     return browser.newPage();
-//   })
-//   .then(function(page) {
-//     return page.goto(url).then(function() {
-//       return page.content();
-//     });
-//   })
-//   .then(function(html) {
-//     // console.log(html);
-//     console.log($('h4 > a', html).length);
-//     console.log($('h4 > a', html));
-//   })
-//   .catch(function(err) {
-//     //handle error
-//   });
+async function additionalInfoViaItemUrl(itemUrl) {
+  return rp(itemUrl)
+    .then(function(html) {
+      // document.querySelectorAll('td > span[itemprop=price]')[1].getAttribute('content');
+      var configurationsLength = $('td > span[itemprop=price]', html).length;
+      console.log(configurationsLength)
+      // itemInfo[0] is name
+      var itemInfo = [$('h1', html).text(), { price: $('td > span[itemprop=price]', html).attr('content'), dimensions: $('td', html).eq(3).text().trim(), thickness: $('td', html).eq(4).text().trim()}];
+      return itemInfo;
+  })
+};
 
-  function extractItems() {
+function extractItems() {
   const itemEls = document.querySelectorAll('ul.product-grid > li');
   const items = [];
   for (let itemEl of itemEls) {
-    var src = itemEl.querySelector("img").getAttribute("src");
-    items.push({imageSrc: src});
+    var imageSrc = itemEl.querySelector("img").getAttribute("src");
+    var itemUrl = 'https://www.inventables.com' + itemEl.querySelector("a").getAttribute("href");
+    var supplier = "Inventables";
+    // var opacity = "";
+    // var color = 
+    // var effect = 
+    items.push({
+      itemUrl: itemUrl,
+      materialType: "Acrylic",
+      customCuts: false;
+      imageSrc: imageSrc
+    });
   }
   return items;
 }
 
+async function extractAdditionalInfo(items) {
+  // mutate items
+  for(var i = 0; i < items.length; i++) {
+    var item = items[i];
+    var additionalInfo = await additionalInfoViaItemUrl(item.itemUrl);
+    console.log("Extracting item from " + item.itemUrl);
+    item.thickness = "1/4";
+    item.name = additionalInfo[0];
+    item.configurations = additionalInfo[1];
+  }
+  return items;
+}
+
+//using puppeteer to handle infinite scroll
 async function scrapeInfiniteScrollItems(
   page,
   extractItems,
   itemTargetCount,
-  scrollDelay = 1000,
+  scrollDelay = 1500,
 ) {
   let items = [];
   try {
     let previousHeight;
     while (items.length < itemTargetCount) {
-      items = await page.evaluate(extractItems);
       previousHeight = await page.evaluate('document.body.scrollHeight');
       await page.evaluate('window.scrollTo(0, document.body.scrollHeight)');
       await page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
       await page.waitFor(scrollDelay);
+      items = await page.evaluate(extractItems);
+      console.log("Extracted " + items.length + " items");
     }
-  } catch(e) { }
+  } catch(e) {
+    console.log("There was an error: ", e);
+  }
+  await extractAdditionalInfo(items);
   return items;
 }
 
@@ -65,11 +86,12 @@ async function scrapeInfiniteScrollItems(
   await page.goto('https://www.inventables.com/categories/materials/acrylic');
 
   // Scroll and extract items from the page.
-  const items = await scrapeInfiniteScrollItems(page, extractItems, 134);
+  const items = await scrapeInfiniteScrollItems(page, extractItems, 10);
 
   // Save extracted items to a file.
   // fs.writeFileSync('./items.txt', items.join('\n') + '\n');
-  fs.writeFileSync('./json/inventables.json', JSON.stringify(items));
+
+  fs.writeFileSync('./json/inventablesScraped.json', JSON.stringify(items, null, ' '));
 
 
   // Close the browser.
