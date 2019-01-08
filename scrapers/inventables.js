@@ -66,7 +66,6 @@ async function extractAdditionalInfo(items) {
     var item = items[i];
     var additionalInfo = await additionalInfoViaItemUrl(item.itemUrl);
     console.log("Extracting item from " + item.itemUrl);
-    item.thickness = "1/4";
     item.name = additionalInfo[0];
     item.configurations = additionalInfo[1];
   }
