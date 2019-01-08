@@ -16,7 +16,10 @@
     "dimensions": "18 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Green",
+  "effect": "Neon",
+  "opacity": "Translucent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/neon-orange-acrylic-sheet",
@@ -35,7 +38,10 @@
     "dimensions": "12 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Orange",
+  "effect": "Neon",
+  "opacity": "Translucent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/neon-blue-acrylic-sheet",
@@ -54,7 +60,10 @@
     "dimensions": "12 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Blue",
+  "effect": "Neon",
+  "opacity": "Translucent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/gold-sunset-glitter-acrylic",
@@ -68,7 +77,10 @@
     "dimensions": "18 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Gold",
+  "effect": "Glitter",
+  "opacity": "Transparent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-red-acrylic-sheet",
@@ -92,21 +104,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/first-surface-mirror-coated-acrylic",
-  "materialType": "Acrylic",
-  "customCuts": false,
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/11342/big_grid/300x400.jpg?1335201639",
-  "name": "First Surface Mirror Coated Acrylic",
-  "configurations": [
-   {
-    "price": "46.49",
-    "dimensions": "12 in × 24 in",
-    "thickness": "1/8 in"
-   }
-  ]
+  ],
+  "color": "5.2%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/rainbow-glitter-acrylic-sheet--2",
@@ -125,7 +126,10 @@
     "dimensions": "12 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Silver",
+  "effect": "Glitter",
+  "opacity": "Translucent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/silver-and-gold-glitter-acrylic-sheet",
@@ -144,7 +148,10 @@
     "dimensions": "12 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Silver",
+  "effect": "Glitter",
+  "opacity": "Translucent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/blue-glitter-acrylic-sheet",
@@ -163,7 +170,10 @@
     "dimensions": "12 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Blue",
+  "effect": "Glitter",
+  "opacity": "Translucent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/purple-glitter-acrylic-sheet--2",
@@ -182,7 +192,10 @@
     "dimensions": "12 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Purple",
+  "effect": "Glitter",
+  "opacity": "Translucent"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/grey-and-clear-reverse-laserable-acrylic-sheet",
@@ -201,7 +214,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "0.007\"",
+  "effect": "+/- 1/4\"",
+  "opacity": "Grey"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/gold-and-clear-reverse-laserable-acrylic-sheet",
@@ -215,7 +231,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "0.003\"",
+  "effect": "+/- 1/4\"",
+  "opacity": "Gold"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/glow-in-the-dark-and-clear-reverse-laserable-acrylic-sheet",
@@ -229,7 +248,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/16 in"
    }
-  ]
+  ],
+  "color": "+/- 1/4\"",
+  "effect": "Clear",
+  "opacity": ".022 in"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/matte-white-on-silver-engravable-acrylic-sheet",
@@ -237,7 +259,10 @@
   "customCuts": false,
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/25399/big_grid/White%20on%20Silver%20Acrylic.JPG?1473277441",
   "name": "Matte White on Silver Engravable Acrylic Sheet",
-  "configurations": []
+  "configurations": [],
+  "color": "± .005 in",
+  "effect": "± 1/4 in",
+  "opacity": "0.001\""
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/yellow-acrylic-sheet",
@@ -261,7 +286,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "22.7%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-light-blue-acrylic-sheet",
@@ -280,7 +308,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "57.1%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-dark-bronze-acrylic-sheet--2",
@@ -299,7 +330,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "47.6%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/fluorescent-pink-acrylic-sheet",
@@ -338,7 +372,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/4 in"
    }
-  ]
+  ],
+  "color": "42%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/fluorescent-orange-acrylic-sheet",
@@ -377,7 +414,10 @@
     "dimensions": "2 in × 2 in sample",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "Transparent",
+  "effect": "Orange",
+  "opacity": "+/- 1/8 in"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/fluorescent-yellow-acrylic-sheet--3",
@@ -421,7 +461,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/4 in"
    }
-  ]
+  ],
+  "color": "Transparent",
+  "effect": "Yellow",
+  "opacity": "+/- 1/8 in"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/fluorescent-green-acrylic-sheet",
@@ -455,7 +498,10 @@
     "dimensions": "18 in × 24 in",
     "thickness": "1/4 in"
    }
-  ]
+  ],
+  "color": "Transparent",
+  "effect": "Green",
+  "opacity": "+/- 1/8 in"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/translucent-blue-acrylic-sheet",
@@ -479,7 +525,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "High-gloss",
+  "effect": "Yes",
+  "opacity": "Blue"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/translucent-red-acrylic-sheet",
@@ -498,7 +547,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "12%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/translucent-ivory-acrylic-sheet",
@@ -517,7 +569,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "High-gloss",
+  "effect": "Yes",
+  "opacity": "Ivory"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/translucent-purple-acrylic-sheet",
@@ -556,7 +611,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/4 in"
    }
-  ]
+  ],
+  "color": "High-gloss",
+  "effect": "Yes",
+  "opacity": "Purple"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/grey-acrylic-sheet--2",
@@ -580,7 +638,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "0.0% (opaque)",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/brown-acrylic-sheet",
@@ -604,7 +665,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "0.0% (opaque)",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-green-acrylic-sheet",
@@ -628,7 +692,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "High-gloss",
+  "effect": "Yes",
+  "opacity": "Green"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-light-green-acrylic-sheet",
@@ -652,7 +719,10 @@
     "dimensions": "18 in × 24 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "High-gloss",
+  "effect": "Yes",
+  "opacity": "Green"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/clear-acrylic-sheet-with-green-edge",
@@ -681,7 +751,10 @@
     "dimensions": "12 in × 24 in",
     "thickness": "1/4 in"
    }
-  ]
+  ],
+  "color": "91.3%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-orange-acrylic-sheet",
@@ -705,7 +778,10 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "High-gloss",
+  "effect": "Yes",
+  "opacity": "Orange"
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/transparent-yellow-acrylic-sheet",
@@ -729,6 +805,31 @@
     "dimensions": "8 in × 12 in",
     "thickness": "1/8 in"
    }
-  ]
+  ],
+  "color": "74.8%",
+  "effect": "High-gloss",
+  "opacity": "Yes"
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/transparent-light-bronze-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22555/big_grid/24166.jpg?1335203801",
+  "name": "Transparent Light Bronze Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "5.49",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ],
+  "color": "High-gloss",
+  "effect": "Yes",
+  "opacity": "Brown"
  }
 ]
