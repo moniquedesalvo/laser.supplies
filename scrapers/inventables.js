@@ -6,18 +6,35 @@ const $ = require('cheerio');
 async function additionalInfoViaItemUrl(itemUrl) {
   return rp(itemUrl)
     .then(function(html) {
-      var configurationsLength = $('tbody',html).eq(0).find('tr', html).length;
-      console.log(configurationsLength)
+      var configurationsLength = $('#variety-table > tbody', html).find('tr', html).length;
       var configurations = [];
+      var price;
+      var dimensions;
+      var thickness;
+
       for (var i = 0; i < configurationsLength; i++) {
+        // when price is unavailable, product is unavailable
+        if ($('td > span[itemprop=price]', html).eq(i).attr('content') === undefined) {
+          price = "Product Unavailable";
+        } else {
+          price = $('td > span[itemprop=price]', html).eq(i).attr('content');
+        }
+        // when item only has one option, there is no first column for radio button so the position of thickness and dimensions will be different 
+        if (configurationsLength === 1) {
+          dimensions = $('#variety-table > tbody', html).find('tr', html).eq(i).find('td', html).eq(2).text().trim();
+          thickness =$('#variety-table > tbody', html).find('tr', html).eq(i).find('td', html).eq(3).text().trim();
+        } else {
+          dimensions = $('#variety-table > tbody', html).find('tr', html).eq(i).find('td', html).eq(3).text().trim()
+          thickness = $('#variety-table > tbody', html).find('tr', html).eq(i).find('td', html).eq(4).text().trim();
+        }
+      
         configurations.push({
-          price: $('td > span[itemprop=price]', html).eq(i).attr('content'),
-          // $('tbody').eq(0).find('tr').eq(1).find('td').eq(3).text().trim();
-          dimensions: $('tbody', html).eq(0).find('tr', html).eq(i).find('td', html).eq(3).text().trim(),
-          thickness: $('tbody', html).eq(0).find('tr', html).eq(i).find('td', html).eq(4).text().trim()
-        })
+          price: price,
+          dimensions: dimensions,
+          thickness: thickness
+        });
       }
-      // itemInfo[0] is name
+      // itemInfo[0] is item name
       var itemInfo = [$('h1', html).text(), configurations];
       return itemInfo;
   })

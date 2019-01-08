@@ -69,8 +69,8 @@
   "configurations": [
    {
     "price": "46.99",
-    "dimensions": "1/8 in",
-    "thickness": ""
+    "dimensions": "18 in × 24 in",
+    "thickness": "1/8 in"
    }
   ]
  },
@@ -109,46 +109,6 @@
   "configurations": [
    {
     "price": "46.49",
-    "dimensions": "1/8 in",
-    "thickness": "Mirrored (2 sides)"
-   }
-  ]
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/black-and-gold-glitter-acrylic-sheet",
-  "materialType": "Acrylic",
-  "customCuts": false,
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24187/big_grid/9556494797_be54d9f639_o.jpg?1377051502",
-  "thickness": "1/4",
-  "name": "Black and Gold Glitter Acrylic Sheet",
-  "configurations": [
-   {
-    "price": "19.99",
-    "dimensions": "8 in × 12 in",
-    "thickness": "1/8 in"
-   },
-   {
-    "price": "59.49",
-    "dimensions": "12 in × 24 in",
-    "thickness": "1/8 in"
-   }
-  ]
- },
- {
-  "itemUrl": "https://www.inventables.com/technologies/black-and-silver-glitter-acrylic-sheet--2",
-  "materialType": "Acrylic",
-  "customCuts": false,
-  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/24188/big_grid/9559282312_ea6039563a_o.jpg?1377051668",
-  "thickness": "1/4",
-  "name": "Black and Silver Glitter Acrylic Sheet",
-  "configurations": [
-   {
-    "price": "19.99",
-    "dimensions": "8 in × 12 in",
-    "thickness": "1/8 in"
-   },
-   {
-    "price": "59.49",
     "dimensions": "12 in × 24 in",
     "thickness": "1/8 in"
    }
@@ -264,8 +224,8 @@
   "configurations": [
    {
     "price": "12.49",
-    "dimensions": "1/8 in",
-    "thickness": "± .005 in"
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
    }
   ]
  },
@@ -279,8 +239,8 @@
   "configurations": [
    {
     "price": "17.49",
-    "dimensions": "1/16 in",
-    "thickness": "± .003 in"
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/16 in"
    }
   ]
  },
@@ -291,24 +251,7 @@
   "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/25399/big_grid/White%20on%20Silver%20Acrylic.JPG?1473277441",
   "thickness": "1/4",
   "name": "Matte White on Silver Engravable Acrylic Sheet",
-  "configurations": [
-   {
-    "dimensions": "",
-    "thickness": ""
-   },
-   {
-    "dimensions": "",
-    "thickness": ""
-   },
-   {
-    "dimensions": "",
-    "thickness": ""
-   },
-   {
-    "dimensions": "",
-    "thickness": ""
-   }
-  ]
+  "configurations": []
  },
  {
   "itemUrl": "https://www.inventables.com/technologies/yellow-acrylic-sheet",
@@ -767,6 +710,56 @@
     "price": "25.49",
     "dimensions": "12 in × 24 in",
     "thickness": "1/4 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/transparent-orange-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22477/big_grid/24164.jpg?1335203771",
+  "thickness": "1/4",
+  "name": "Transparent Orange Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "15.49",
+    "dimensions": "18 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "5.49",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
+   }
+  ]
+ },
+ {
+  "itemUrl": "https://www.inventables.com/technologies/transparent-yellow-acrylic-sheet",
+  "materialType": "Acrylic",
+  "customCuts": false,
+  "imageSrc": "https://dzevsq2emy08i.cloudfront.net/paperclip/technology_image_uploaded_images/22489/big_grid/24165.jpg?1335203777",
+  "thickness": "1/4",
+  "name": "Transparent Yellow Acrylic Sheet",
+  "configurations": [
+   {
+    "price": "10.49",
+    "dimensions": "12 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "15.49",
+    "dimensions": "18 in × 24 in",
+    "thickness": "1/8 in"
+   },
+   {
+    "price": "5.49",
+    "dimensions": "8 in × 12 in",
+    "thickness": "1/8 in"
    }
   ]
  }
