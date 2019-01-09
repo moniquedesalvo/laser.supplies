@@ -9,17 +9,31 @@ async function additionalInfoViaItemUrl(itemUrl) {
       var name = $('h1', html).text();
       var configurations = [];
       var configurationsLength = $('#variety-table > tbody', html).find('tr', html).length;
+      var techSpecsTd = $('#technical-specs > tbody', html).find('td', html);
       var price;
       var dimensions;
       var thickness;
+      var color;
+      var effect;
+      var opacity;
 
-      // TODO: sometimes technical specs table is out of order, add logic to find the right categories
-      var color = $('#technical-specs > tbody', html).find('td > p', html).eq(1).text();
-      var effect = $('#technical-specs > tbody', html).find('td > p', html).eq(3).text();
-      var opacity = $('#technical-specs > tbody', html).find('td > p', html).eq(5).text();
+      for (let i = 0; i < techSpecsTd.length; i++) {
+        var techSpecsTdP = $('#technical-specs > tbody', html).find('td > p', html)
+        if (techSpecsTdP.eq(i).text() === "Color") {
+          color = techSpecsTdP.eq(i + 1).text();
+        }
+        if (techSpecsTdP.eq(i).text() === "Effect") {
+          effect = techSpecsTdP.eq(i + 1).text();
+        } else {
+          effect = "unspecified";
+        }
+        if (techSpecsTdP.eq(i).text() === "Opacity") {
+          opacity = techSpecsTdP.eq(i + 1).text();
+        }
+      }
 
       // configurations (price, dimensions, thickness)
-      for (var i = 0; i < configurationsLength; i++) {
+      for (let i = 0; i < configurationsLength; i++) {
         // when price is unavailable, product is unavailable
         if ($('td > span[itemprop=price]', html).eq(i).attr('content') === undefined) {
           price = "Product Unavailable";
@@ -57,7 +71,7 @@ function extractItems() {
       materialType: "Acrylic",
       customCuts: false,
       imageSrc: imageSrc,
-      supplier: "Inventables";
+      supplier: "Inventables"
     });
   }
   return items;
@@ -116,10 +130,10 @@ async function scrapeInfiniteScrollItems(
   await page.goto('https://www.inventables.com/categories/materials/acrylic');
 
   // Scroll and extract items from the page.
-  const items = await scrapeInfiniteScrollItems(page, extractItems, 10);
+  const items = await scrapeInfiniteScrollItems(page, extractItems, 134);
 
   // Save extracted items to a file.
-  fs.writeFileSync('./json/inventablesScraped.json', JSON.stringify(items, null, ' '));
+  fs.writeFileSync('./json/inventablesAcrylicScraped.json', JSON.stringify(items, null, ' '));
 
 
   // Close the browser.
